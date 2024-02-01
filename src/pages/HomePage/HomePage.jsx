@@ -1,9 +1,9 @@
 export default function HomePage() {
 	return (
 		<>
-			<div>
-				<h1>Zachary Swan Mitchell</h1>
-				<p>
+			<h1 className="fullName">Zachary Swan Mitchell</h1>
+			<div className="pitch-container">
+				<p className="pitch">
 					Results-driven Full Stack Developer with a commitment to
 					sustainability. Transitioned from a dynamic role as a Development
 					Coordinator to achieve proficiency in JavaScript, Node.js, React, and
