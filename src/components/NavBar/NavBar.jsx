@@ -1,22 +1,25 @@
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import "./NavBar.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 export default function NavBar() {
+	const location = useLocation();
+    const isHomePage = location.pathname === '/';
+    const isAboutPage = location.pathname === '/about';
+    const isProjectPage = location.pathname === '/projects';
 	return (
 		<>
-			<Navbar expand="sm" className="bg-body-tertiary">
+			<Navbar expand="sm" className="navbar">
 				<Container fluid>
-					<Link className="navbar-brand-wrap" to="/">
+					<Link className="brand-wrapper" to="/">
 						<Navbar.Brand href="#home">
 							<img
 								alt=""
-								src="../images/BC57DA6B-3F1F-4246-8D59-29F9A84F5534.JPG"
-								width="30"
-								height="30"
-								// className=""
+								src="../images/IMG_9819.jpeg"
+								className="brand-image"
 							/>{" "}
 							Zachary Swan Mitchell
 						</Navbar.Brand>
