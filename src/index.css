@@ -1,18 +1,18 @@
 /* CSS Custom Properties */
 :root {
 	/* CSS HEX */
-	--lapis-lazuli: #05668dff;
-	--ucla-blue: #427aa1ff;
-	--alice-blue: #ebf2faff;
-	--asparagus: #679436ff;
-	--apple-green: #a5be00ff;
+	--dark-blue: #05668dff;
+	--light-blue: #427aa1ff;
+	--white: #ebf2faff;
+	--light-green: #a5be00ff;
+	--dark-green: #679436ff;
 
 	/* CSS HSL */
-	/* --lapis-lazuli: hsla(197, 93%, 29%, 1);
---ucla-blue: hsla(205, 42%, 45%, 1);
---alice-blue: hsla(212, 60%, 95%, 1);
---asparagus: hsla(89, 47%, 40%, 1);
---apple-green: hsla(68, 100%, 37%, 1); */
+	--lapis-lazuli: hsla(197, 93%, 29%, 1);
+	--ucla-blue: hsla(205, 42%, 45%, 1);
+	--alice-blue: hsla(212, 60%, 95%, 1);
+	--asparagus: hsla(89, 47%, 40%, 1);
+	--apple-green: hsla(68, 100%, 37%, 1);
 }
 
 *,
@@ -24,11 +24,9 @@
 body {
 	margin: 0;
 	font-family: "Fredoka", "Helvetica Neue", sans-serif;
-	/* font-family: "Bebas Neue", sans-serif;
-	font-family: "Comfortaa", sans-serif;
-	font-family: "Cute Font", sans-serif;
-	font-family: "Major Mono Display", monospace;
-	font-family: "Maven Pro", sans-serif; */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+a {
+	text-decoration: none !important;
 }

@@ -3,7 +3,13 @@
 }
 
 body {
-  background-color: var(--alice-blue);
+  background-color: var(--white);
+  /* font-family: "Fredoka", "Helvetica Neue", sans-serif; */
+	/* font-family: "Bebas Neue", sans-serif; */
+	/* font-family: "Comfortaa", sans-serif; */
+	font-family: "Cute Font", sans-serif;
+	/* font-family: "Major Mono Display", monospace; */
+	/* font-family: "Maven Pro", sans-serif; */
 }
 /* 
 
