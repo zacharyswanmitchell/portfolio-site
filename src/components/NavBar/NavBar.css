@@ -1,13 +1,19 @@
 .navbar {
 	background-color: var(--dark-green);
 }
-a {
+.nav-link {
 	color: var(--white);
 	text-decoration: none;
 }
-a:hover {
+.nav-link:hover {
 	color: var(--light-green);
+	text-decoration: none;
 }
+/* .nav-link:active {
+	color: var(--light-green);
+	text-decoration: none;
+} */
+
 .navbar-brand {
 	font-size: 1.5rem;
 	font-weight: bold;

@@ -7,9 +7,9 @@ import Navbar from "react-bootstrap/Navbar";
 
 export default function NavBar() {
 	const location = useLocation();
-    const isHomePage = location.pathname === '/';
-    const isAboutPage = location.pathname === '/about';
-    const isProjectPage = location.pathname === '/projects';
+	const isHomePage = location.pathname === "/";
+	const isAboutPage = location.pathname === "/about";
+	const isProjectPage = location.pathname === "/projects";
 	return (
 		<>
 			<Navbar expand="sm" className="navbar">
@@ -25,11 +25,23 @@ export default function NavBar() {
 						</Navbar.Brand>
 					</Link>
 					<Nav>
-						<Link to="/">Home</Link>
+						<Link to="/" className={`nav-link ${isHomePage ? "active" : ""}`}>
+							Home
+						</Link>
 						&nbsp; | &nbsp;
-						<Link to="/about">About</Link>
+						<Link
+							to="/about"
+							className={`nav-link ${isAboutPage ? "active" : ""}`}
+						>
+							About
+						</Link>
 						&nbsp; | &nbsp;
-						<Link to="/projects">Projects</Link>
+						<Link
+							to="/projects"
+							className={`nav-link ${isProjectPage ? "active" : ""}`}
+						>
+							Projects
+						</Link>
 					</Nav>
 				</Container>
 			</Navbar>
