@@ -18,7 +18,7 @@ export default function NavBar() {
 						<Navbar.Brand href="#home">
 							<img
 								alt=""
-								src="../images/fullbodyshot.jpeg"
+								src="../images/headshot.png"
 								className="brand-image"
 							/>{" "}
 							Zachary Swan Mitchell
