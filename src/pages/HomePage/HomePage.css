@@ -1,0 +1,58 @@
+.brand-container {
+	display: grid;
+}
+
+.fullName {
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 0.5em;
+	font-family: "Maven Pro", sans-serif;
+}
+
+.photo-container {
+	display: flex;
+	margin-bottom: 1em;
+	width: 100px;
+	height: 100px;
+}
+.aboutme-home-container {
+    display: flex;
+	justify-content: center;
+    align-items: center;
+	margin-bottom: 1em;
+}
+.aboutme-home{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.aboutme-home-blurb {
+	font-size: 1.5em;
+	color: #000;
+	text-align: center;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+.aboutme-button {
+    color: var(--dark-blue);
+    outline: var(--dark-blue);
+    
+}
+.aboutme-button:hover {
+    color: var(--white);
+    outline: var(--dark-blue);
+    background-color: var(--dark-blue);
+}
+.projects-home {
+    display: flex;
+    justify-content: center;
+}
+.projects-home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
