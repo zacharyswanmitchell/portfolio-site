@@ -1,0 +1,26 @@
+footer {
+	background-color: var(--dark-blue);
+	color: var(--white);
+	display: flex;
+	margin-top: 50px;
+}
+footer .container {
+	display: flex;
+	margin: 0 auto;
+	padding: 1em;
+}
+footer .socials {
+	display: flex;
+	gap: 10px;
+}
+footer .social-icon {
+    color: var(--white);
+    height: 24px;
+    width: 24px;
+}
+footer .social-icon:hover {
+    color: var(--light-blue);
+}
+.footer-links {
+    color: var(--white);
+}
