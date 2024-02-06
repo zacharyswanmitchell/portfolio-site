@@ -11,19 +11,24 @@ export default function HomePage() {
 	return (
 		<>
 			<Container fluid className="brand-container">
-				<h1 className="fullName">Zachary Swan Mitchell</h1>
-				<div className="photo-container">
-					<Image src="/images/fullbodyshot.jpeg" fluid />
+				<div className="brand-info">
+					<h1>Zachary Swan Mitchell</h1>
+					<h2>Full Stack Developer</h2>
+					<p>
+						Hey, Hello, How are ya?<span>- Vaughn from Community</span>
+					</p>
 				</div>
+
+				<Image src="/images/homepage-crop.jpeg" fluid />
 			</Container>
 			<Container fluid className="aboutme-home-container">
 				<div>
 					<h2 className="aboutme-home">About Me.</h2>
 					<p className="aboutme-home-blurb">
 						Results-driven Full Stack Developer with a commitment to
-						sustainability. Transitioned from a dynamic role as a Development
-						Coordinator to achieve proficiency in JavaScript, Node.js, React,
-						and more through General Assembly.
+						sustainability. Transitioned from a dynamic role as Agile
+						Development Coordinator to achieve proficiency in JavaScript,
+						Node.js, React, and more through General Assembly.
 					</p>
 					<div className="button-container">
 						<Button
