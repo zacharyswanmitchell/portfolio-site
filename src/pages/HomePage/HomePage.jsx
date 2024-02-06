@@ -35,63 +35,69 @@ export default function HomePage() {
 					</div>
 				</div>
 			</Container>
-				<div className="projects-home">
-					<h1>Projects</h1>
-				</div>
-			<Container fluid className="projects-home-container">
-				<Row>
-					<Col>
-						<Card style={{ width: "18rem" }}>
-							<Card.Img variant="top" src="images/rehomr/home.png" />
-							<Card.Body>
-								<Card.Title>reHomr</Card.Title>
-								<Card.Text>
-									Some quick example text to build on the card title and make up
-									the bulk of the card's content.
-								</Card.Text>
-							</Card.Body>
-						</Card>
-					</Col>
-					<Col>
-						<Card style={{ width: "18rem" }}>
-							<Card.Img variant="top" src="/images/disctracker/SCR-20231103-owfg.png" />
-							<Card.Body>
-								<Card.Title>Disc Golf App</Card.Title>
-								<Card.Text>
-									Some quick example text to build on the card title and make up
-									the bulk of the card's content.
-								</Card.Text>
-							</Card.Body>
-						</Card>
-					</Col>
-				</Row>
-				<Row>
-					<Col>
-						<Card style={{ width: "18rem" }}>
-							<Card.Img variant="top" src="/images/weatherman/weatherman-during.png" />
-							<Card.Body>
-								<Card.Title>WeatherMan</Card.Title>
-								<Card.Text>
-									Some quick example text to build on the card title and make up
-									the bulk of the card's content.
-								</Card.Text>
-							</Card.Body>
-						</Card>
-					</Col>
-					<Col>
-						<Card style={{ width: "18rem" }}>
-							<Card.Img variant="top" src="/images/arenal-crop.jpeg" />
-							<Card.Body>
-								<Card.Title>Card Title</Card.Title>
-								<Card.Text>
-									Some quick example text to build on the card title and make up
-									the bulk of the card's content.
-								</Card.Text>
-							</Card.Body>
-						</Card>
-					</Col>
-				</Row>
-			</Container>
+			<div className="projects-home">
+				<h1>Projects</h1>
+				<Container fluid>
+					<Row>
+						<Col>
+							<Card >
+								<Card.Img variant="top" src="images/rehomr/home.png" />
+								<Card.Body>
+									<Card.Title>reHomr</Card.Title>
+									<Card.Text>
+										Some quick example text to build on the card title and make
+										up the bulk of the card's content.
+									</Card.Text>
+								</Card.Body>
+							</Card>
+						</Col>
+						<Col>
+							<Card >
+								<Card.Img
+									variant="top"
+									src="/images/disctracker/SCR-20231103-owfg.png"
+								/>
+								<Card.Body>
+									<Card.Title>Disc Golf App</Card.Title>
+									<Card.Text>
+										Some quick example text to build on the card title and make
+										up the bulk of the card's content.
+									</Card.Text>
+								</Card.Body>
+							</Card>
+						</Col>
+					</Row>
+					<Row>
+						<Col>
+							<Card >
+								<Card.Img
+									variant="top"
+									src="/images/weatherman/weatherman-during.png"
+								/>
+								<Card.Body>
+									<Card.Title>WeatherMan</Card.Title>
+									<Card.Text>
+										Some quick example text to build on the card title and make
+										up the bulk of the card's content.
+									</Card.Text>
+								</Card.Body>
+							</Card>
+						</Col>
+						<Col>
+							<Card >
+								<Card.Img variant="top" src="/images/arenal-crop.jpeg" />
+								<Card.Body>
+									<Card.Title>Card Title</Card.Title>
+									<Card.Text>
+										Some quick example text to build on the card title and make
+										up the bulk of the card's content.
+									</Card.Text>
+								</Card.Body>
+							</Card>
+						</Col>
+					</Row>
+				</Container>
+			</div>
 		</>
 	);
 }

@@ -46,13 +46,14 @@
     outline: var(--dark-blue);
     background-color: var(--dark-blue);
 }
-.projects-home {
-    display: flex;
-    justify-content: center;
+.projects-home h1 {
+    text-align: center;
 }
-.projects-home-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1em;
+.projects-home .container-fluid {
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr 1fr;
+    gap: 35px;
+    width: 75%;
 }
