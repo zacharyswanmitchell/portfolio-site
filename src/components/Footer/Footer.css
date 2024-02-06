@@ -1,13 +1,12 @@
 footer {
 	background-color: var(--dark-blue);
 	color: var(--white);
-	display: flex;
-	margin-top: 50px;
 }
-footer .container {
-	display: flex;
+footer .container-fluid {
 	margin: 0 auto;
 	padding: 1em;
+    display: flex;
+    justify-content: space-between;
 }
 footer .socials {
 	display: flex;
@@ -23,4 +22,8 @@ footer .social-icon:hover {
 }
 .footer-links {
     color: var(--white);
+} 
+.footer-links:hover {
+    color: var(--light-blue);
 }
+
