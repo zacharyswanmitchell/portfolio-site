@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { Link } from "react-router-dom";
 
 export default function HomePage() {
 	return (
@@ -40,51 +41,57 @@ export default function HomePage() {
 				<Container fluid>
 					<Row>
 						<Col>
-							<Card >
-								<Card.Img variant="top" src="images/rehomr/home.png" />
-								<Card.Body>
-									<Card.Title>reHomr</Card.Title>
-									<Card.Text>
-										Some quick example text to build on the card title and make
-										up the bulk of the card's content.
-									</Card.Text>
-								</Card.Body>
-							</Card>
+							<Link to="https://rehomr-58ea4d4dc5ca.herokuapp.com/">
+								<Card>
+									<Card.Img variant="top" src="images/rehomr/home.png" />
+									<Card.Body>
+										<Card.Title>reHomr</Card.Title>
+										<Card.Text>
+											Some quick example text to build on the card title and
+											make up the bulk of the card's content.
+										</Card.Text>
+									</Card.Body>
+								</Card>
+							</Link>
 						</Col>
 						<Col>
-							<Card >
-								<Card.Img
-									variant="top"
-									src="/images/disctracker/SCR-20231103-owfg.png"
-								/>
-								<Card.Body>
-									<Card.Title>Disc Golf App</Card.Title>
-									<Card.Text>
-										Some quick example text to build on the card title and make
-										up the bulk of the card's content.
-									</Card.Text>
-								</Card.Body>
-							</Card>
+							<Link to="https://disc-golf-inventory-manager-230ba0ac5328.herokuapp.com/">
+								<Card>
+									<Card.Img
+										variant="top"
+										src="/images/disctracker/SCR-20231103-owfg.png"
+									/>
+									<Card.Body>
+										<Card.Title>Disc Golf App</Card.Title>
+										<Card.Text>
+											Some quick example text to build on the card title and
+											make up the bulk of the card's content.
+										</Card.Text>
+									</Card.Body>
+								</Card>
+							</Link>
 						</Col>
 					</Row>
 					<Row>
 						<Col>
-							<Card >
-								<Card.Img
-									variant="top"
-									src="/images/weatherman/weatherman-during.png"
-								/>
-								<Card.Body>
-									<Card.Title>WeatherMan</Card.Title>
-									<Card.Text>
-										Some quick example text to build on the card title and make
-										up the bulk of the card's content.
-									</Card.Text>
-								</Card.Body>
-							</Card>
+							<Link to="https://zacharyswanmitchell.github.io/weatherman/">
+								<Card>
+									<Card.Img
+										variant="top"
+										src="/images/weatherman/weatherman-during.png"
+									/>
+									<Card.Body>
+										<Card.Title>WeatherMan</Card.Title>
+										<Card.Text>
+											Some quick example text to build on the card title and
+											make up the bulk of the card's content.
+										</Card.Text>
+									</Card.Body>
+								</Card>
+							</Link>
 						</Col>
 						<Col>
-							<Card >
+							<Card>
 								<Card.Img variant="top" src="/images/arenal-crop.jpeg" />
 								<Card.Body>
 									<Card.Title>Card Title</Card.Title>
