@@ -15,7 +15,7 @@ export default function HomePage() {
 					<h1>Zachary Swan Mitchell</h1>
 					<h2>Full Stack Developer</h2>
 					<p>
-						Hey, Hello, How are ya?<span>- Vaughn from Community</span>
+						Hey, Hello, How are ya?
 					</p>
 				</div>
 

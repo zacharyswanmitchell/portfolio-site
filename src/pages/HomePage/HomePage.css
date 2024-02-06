@@ -26,6 +26,7 @@
 	margin-bottom: 1em;
 	width: 24em;
 	height: 30em;
+    border-radius: 5px;
 }
 .aboutme-home-container {
     display: flex;
