@@ -1,29 +1,24 @@
 .about-container {
-    /* text-align: justify; */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
 }
 
-.about-brand h1{
-    font-size: 4rem;
+.about-brand,h1 {
+    
+	font-size: 4rem;
 }
 
-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.about-copy {
+	padding: 3em 0em 0px 1em;
+	text-align: justify;
+	font-size: 1.5rem;
+	line-height: 2.5rem;
 }
-
-.about-copy p{
-    padding: 0px 2em 0px 2em;
-    margin: 0px 0px 0px 0px;
-    text-align: justify;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-}
-.about-brand p{
-    text-align: justify;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+.about-copy-cont {
+    grid-column: auto / span 2;
+    padding: 0px 1em 0px 1em;
+	text-align: justify;
+	font-size: 1.5rem;
+	line-height: 2.5rem;
 }

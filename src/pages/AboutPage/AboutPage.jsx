@@ -21,7 +21,9 @@ export default function AboutPage() {
 						decided to take the leap into the world of coding. Now, I'm eagerly
 						seeking new opportunities in the field.
 					</p>
-					<p>
+				</div>
+				<div className="about-copy-cont">
+				<p>
 						My educational background includes studies in Pastoral Ministries at
 						Southeastern University, where I spent time volunteering in various
 						ministries. While I cherish the experiences gained, I realized my
