@@ -8,7 +8,7 @@ export default function RehomrPage() {
 			<Container fluid className="project-container">
 				<div className="project-title">
 					<h1>reHomr</h1>
-					<span>Front End & UI/UX</span>
+					<span>Backend & API Integration</span>
 				</div>
 				<div className="project-details">
 					<div className="description">
@@ -44,7 +44,6 @@ export default function RehomrPage() {
 									<li>Bootstrap</li>
 									<li>AJAX/Axios</li>
 									<li>Trello</li>
-									<li>Figjam</li>
 									<li>Heroku</li>
 									<li>Google Maps API</li>
 								</ul>
@@ -61,13 +60,13 @@ export default function RehomrPage() {
 					</Button>{" "}
 				</div>
 				<div className="project-screenshots">
-					<h1>Web Screenshots</h1>
+					<h1>Screenshots</h1>
 					<div className="web-screenshots">
-						<img src="" alt="" />
-						<img src="" alt="" />
-						<img src="" alt="" />
-						<img src="" alt="" />
-						<img src="" alt="" />
+						<img src="/images/rehomr/home.png" alt="" />
+						<img src="/images/rehomr/login.png" alt="" />
+						<img src="/images/rehomr/map.png" alt="" />
+						<img src="/images/rehomr/pet-detail.png" alt="" />
+						<img src="/images/rehomr/pets-available.png" alt="" />
 					</div>
 				</div>
 			</Container>

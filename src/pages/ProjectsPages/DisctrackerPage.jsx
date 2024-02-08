@@ -13,12 +13,7 @@ export default function RehomrPage() {
 				<div className="project-details">
 					<div className="description">
 						<h1>Project Overview</h1>
-						reHomr is a web application designed to streamline the process of
-						connecting pets in need of a home with individuals or families
-						looking to adopt. The platform serves as a bridge between pet owners
-						or rescue organizations and potential adopters, facilitating the
-						adoption process and providing a centralized space for users to
-						explore, learn about, and connect with pets.
+						DiscTracker is
 					</div>
 					<div className="tech">
 						<h1>Technologies Used</h1>
@@ -26,7 +21,7 @@ export default function RehomrPage() {
 							<div className="tech-used-1">
 								<ul>
 									<h2>Frontend</h2>
-									<li>React.js</li>
+									{/* <li>React.js</li> */}
 									<li>HTML</li>
 									<li>CSS</li>
 									<li>JavaScript</li>
@@ -41,10 +36,9 @@ export default function RehomrPage() {
 							<div className="tech-used-2">
 								<ul>
 									<h2>Other Tools</h2>
-									<li>Bootstrap</li>
+									{/* <li>Bootstrap</li> */}
 									<li>AJAX/Axios</li>
 									<li>Trello</li>
-									<li>Figjam</li>
 									<li>Heroku</li>
 									<li>Google Maps API</li>
 								</ul>
