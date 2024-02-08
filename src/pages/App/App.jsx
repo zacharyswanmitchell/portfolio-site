@@ -7,6 +7,8 @@ import HomePage from "../HomePage/HomePage";
 import AboutPage from "../AboutPage/AboutPage";
 import ProjectsIndex from "../ProjectsIndex/ProjectsIndex";
 import RehomrPage from "../ProjectsPages/RehomrPage";
+import DisctrackerPage from "../ProjectsPages/DisctrackerPage";
+import WeathermanPage from "../ProjectsPages/WeathermanPage";
 
 export default function App() {
 	return (
@@ -17,7 +19,9 @@ export default function App() {
 				<Route path="/" element={<HomePage />} />
 				<Route path="/about" element={<AboutPage />} />
 				<Route path="/projects" element={<ProjectsIndex />} />
-				<Route path="/projects/rehomr" element={<RehomrPage />} />
+        <Route path="/projects/rehomr" element={<RehomrPage />} />
+        <Route path="/projects/disctracker" element={<DisctrackerPage />} />
+        <Route path="/projects/weatherman" element={<WeathermanPage />} />
 			</Routes>
 			<Footer />
 		</main>

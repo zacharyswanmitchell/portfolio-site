@@ -22,7 +22,7 @@ export default function ProjectsIndex() {
 						</Card.Body>
 					</Card>
 				</Link>
-				<Link to="/projects/disc-tracker">
+				<Link to="/projects/disctracker">
 				<Card className="projects-card">
 						<Card.Img
 							variant="top"
