@@ -12,14 +12,12 @@
 	color: #000;
     margin-top: 125px;
 	margin-bottom: 0.5em;
-	font-family: "Maven Pro", sans-serif;
 }
 .brand-info h2{
     font-size: 1.9em;
     font-weight: bold;
     color: #000;
     margin-bottom: 0.5em;
-    font-family: "Maven Pro", sans-serif;
 }
 .brand-container img{
     margin-top: 25px;
@@ -34,7 +32,8 @@
 .aboutme-home{
     display: flex;
     justify-content: center;
-    margin-bottom: 1em;
+    padding-top: .5em;
+
 }
 .aboutme-home-blurb {
 	font-size: 1.5em;
@@ -56,11 +55,12 @@
 }
 .projects-home h1 {
     text-align: center;
+    padding-top: 1em;
 }
 .projects-home .container-fluid {
     margin: 25px auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     gap: 35px;
-    width: 75%;
+    width: 90%;
 }

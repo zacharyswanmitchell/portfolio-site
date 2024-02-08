@@ -12,18 +12,16 @@ export default function HomePage() {
 		<>
 			<Container fluid className="brand-container">
 				<div className="brand-info">
-					<h1>Zachary Swan Mitchell</h1>
-					<h2>Full Stack Developer</h2>
-					<p>
-						Hey, Hello, How are ya?
-					</p>
+					<h1>zachary swan mitchell</h1>
+					<h2>full stack developer</h2>
+					<h3>hey, hello, how are ya?</h3>
 				</div>
 
 				<Image src="/images/homepage-crop.jpeg" fluid />
 			</Container>
 			<Container fluid className="aboutme-home-container">
 				<div>
-					<h2 className="aboutme-home">About Me.</h2>
+					<h1 className="aboutme-home">about me.</h1>
 					<p className="aboutme-home-blurb">
 						Results-driven Full Stack Developer with a commitment to
 						sustainability. Transitioned from a dynamic role as Agile
@@ -42,7 +40,7 @@ export default function HomePage() {
 				</div>
 			</Container>
 			<div className="projects-home">
-				<h1>Projects</h1>
+				<h1>projects</h1>
 				<Container fluid>
 					<Row>
 						<Col>
@@ -52,8 +50,8 @@ export default function HomePage() {
 									<Card.Body>
 										<Card.Title>reHomr</Card.Title>
 										<Card.Text>
-											Some quick example text to build on the card title and
-											make up the bulk of the card's content.
+											A web application designed to streamline the pet adoption
+											process
 										</Card.Text>
 									</Card.Body>
 								</Card>
@@ -69,15 +67,12 @@ export default function HomePage() {
 									<Card.Body>
 										<Card.Title>Disc Golf App</Card.Title>
 										<Card.Text>
-											Some quick example text to build on the card title and
-											make up the bulk of the card's content.
+											A web application for tracking your disc golf inventory
 										</Card.Text>
 									</Card.Body>
 								</Card>
 							</Link>
 						</Col>
-					</Row>
-					<Row>
 						<Col>
 							<Link to="https://zacharyswanmitchell.github.io/weatherman/">
 								<Card>
@@ -88,13 +83,14 @@ export default function HomePage() {
 									<Card.Body>
 										<Card.Title>WeatherMan</Card.Title>
 										<Card.Text>
-											Some quick example text to build on the card title and
-											make up the bulk of the card's content.
+											A reimagined version of the classic Hangman
 										</Card.Text>
 									</Card.Body>
 								</Card>
 							</Link>
 						</Col>
+					</Row>
+					<Row>
 						{/* <Col>
 							<Card>
 								<Card.Img variant="top" src="/images/arenal-crop.jpeg" />
