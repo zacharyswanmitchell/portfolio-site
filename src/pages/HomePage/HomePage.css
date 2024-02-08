@@ -24,8 +24,6 @@
 .brand-container img{
     margin-top: 25px;
 	margin-bottom: 1em;
-	width: 24em;
-	height: 30em;
     border-radius: 5px;
 }
 .aboutme-home-container {
@@ -48,7 +46,6 @@
     justify-content: center;
 }
 .aboutme-button {
-    color: var(--dark-blue);
     outline: var(--dark-blue);
     
 }

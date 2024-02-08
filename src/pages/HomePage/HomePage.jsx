@@ -95,7 +95,7 @@ export default function HomePage() {
 								</Card>
 							</Link>
 						</Col>
-						<Col>
+						{/* <Col>
 							<Card>
 								<Card.Img variant="top" src="/images/arenal-crop.jpeg" />
 								<Card.Body>
@@ -106,7 +106,7 @@ export default function HomePage() {
 									</Card.Text>
 								</Card.Body>
 							</Card>
-						</Col>
+						</Col> */}
 					</Row>
 				</Container>
 			</div>
