@@ -46,7 +46,7 @@ export default function WeathermanPage() {
 					</Button>{" "}
 				</div>
 				<div className="project-screenshots">
-					<h1>Web Screenshots</h1>
+					<h1>Screenshots</h1>
 					<div className="web-screenshots">
 						<img src="" alt="" />
 						<img src="" alt="" />
