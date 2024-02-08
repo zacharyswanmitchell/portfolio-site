@@ -1,7 +1,13 @@
+import "./ProjectsPage.css";
+import Container from "react-bootstrap";
+import Image from "react-bootstrap/Image";
+import Card from "react-bootstrap/Card";
+
 export default function ProjectsPage() {
 	return (
 		<>
-			<h1>My Work</h1>
+			<Container fluid className="projects-container">
+			<h1>Projects</h1>
 			<div>
 				<p>Project 1</p>
 				<p>This is my info for Project 1</p>
@@ -18,6 +24,7 @@ export default function ProjectsPage() {
 				<p>Project 4</p>
 				<p>This is my info for Project 4</p>
 			</div>
+				</Container>
 		</>
 	);
 }
