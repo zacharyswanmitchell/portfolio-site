@@ -2,18 +2,21 @@ import "./Projects.css";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 
-export default function RehomrPage() {
+export default function DisctrackerPage() {
 	return (
 		<>
 			<Container fluid className="project-container">
 				<div className="project-title">
-					<h1>reHomr</h1>
-					<span>Front End & UI/UX</span>
+					<h1>DiscTracker</h1>
+					<span>Full Stack Developer</span>
 				</div>
 				<div className="project-details">
 					<div className="description">
 						<h1>Project Overview</h1>
-						DiscTracker is
+						DiscTracker is a disc golf app that allows you to keep track of
+						your bags and discs. When I am playing I can never remember which
+						discs I have in my bag and what their flight numbers are. This app
+						will allow you to keep track of all of that information.
 					</div>
 					<div className="tech">
 						<h1>Technologies Used</h1>
@@ -21,7 +24,6 @@ export default function RehomrPage() {
 							<div className="tech-used-1">
 								<ul>
 									<h2>Frontend</h2>
-									{/* <li>React.js</li> */}
 									<li>HTML</li>
 									<li>CSS</li>
 									<li>JavaScript</li>
@@ -36,11 +38,9 @@ export default function RehomrPage() {
 							<div className="tech-used-2">
 								<ul>
 									<h2>Other Tools</h2>
-									{/* <li>Bootstrap</li> */}
 									<li>AJAX/Axios</li>
 									<li>Trello</li>
 									<li>Heroku</li>
-									<li>Google Maps API</li>
 								</ul>
 							</div>
 						</div>
