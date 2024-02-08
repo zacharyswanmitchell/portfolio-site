@@ -9,11 +9,11 @@ export default function ProjectsPage() {
 	return (
 		<>
 			<div className="projects-title">
-				<h1>Projects</h1>
+				<h1>projects.</h1>
 			</div>
-			<Container>
+			<Container fluid className="projects-container">
 				<Link to="/projects/rehomr">
-					<Card>
+					<Card className="projects-card">
 						<Card.Img variant="top" src="images/rehomr/home.png" />
 						<Card.Body>
 							<Card.Title>Rehomr</Card.Title>
@@ -25,7 +25,7 @@ export default function ProjectsPage() {
 					</Card>
 				</Link>
 				<Link to="/projects/disc-tracker">
-					<Card>
+				<Card className="projects-card">
 						<Card.Img
 							variant="top"
 							src="/images/disctracker/SCR-20231103-owfg.png"
@@ -39,7 +39,7 @@ export default function ProjectsPage() {
 					</Card>
 				</Link>
 				<Link to="/projects/weatherman">
-					<Card>
+				<Card className="projects-card">
 						<Card.Img
 							variant="top"
 							src="/images/weatherman/weatherman-during.png"
