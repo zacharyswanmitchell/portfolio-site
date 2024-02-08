@@ -52,10 +52,10 @@ export default function RehomrPage() {
 					</div>
 				</div>
 				<div className="project-buttons">
-					<Button href="" variant="outline-primary" className="aboutme-button">
+					<Button href="https://rehomr-58ea4d4dc5ca.herokuapp.com/" variant="outline-primary" className="aboutme-button">
 						Deployed Site
 					</Button>{" "}
-					<Button href="" variant="outline-primary" className="aboutme-button">
+					<Button href="https://github.com/zacharyswanmitchell/rehomr/" variant="outline-primary" className="aboutme-button">
 						Github
 					</Button>{" "}
 				</div>
