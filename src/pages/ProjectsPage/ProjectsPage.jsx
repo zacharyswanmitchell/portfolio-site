@@ -1,30 +1,56 @@
 import "./ProjectsPage.css";
-import Container from "react-bootstrap";
-import Image from "react-bootstrap/Image";
+import { Link } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 
 export default function ProjectsPage() {
 	return (
 		<>
-			<Container fluid className="projects-container">
-			<h1>Projects</h1>
-			<div>
-				<p>Project 1</p>
-				<p>This is my info for Project 1</p>
+			<div className="projects-title">
+				<h1>Projects</h1>
 			</div>
-			<div>
-				<p>Project 2</p>
-				<p>This is my info for Project 2</p>
-			</div>
-			<div>
-				<p>Project 3</p>
-				<p>This is my info for Project 3</p>
-			</div>
-			<div>
-				<p>Project 4</p>
-				<p>This is my info for Project 4</p>
-			</div>
-				</Container>
+			<Container>
+				<Link to="/projects/rehomr">
+					<Card>
+						<Card.Img variant="top" src="images/rehomr/home.png" />
+						<Card.Body>
+							<Card.Title>Rehomr</Card.Title>
+							<Card.Text>
+								A web application designed to streamline the pet adoption
+								process
+							</Card.Text>
+						</Card.Body>
+					</Card>
+				</Link>
+				<Link to="/projects/disc-tracker">
+					<Card>
+						<Card.Img
+							variant="top"
+							src="/images/disctracker/SCR-20231103-owfg.png"
+						/>
+						<Card.Body>
+							<Card.Title>Disc Tracker</Card.Title>
+							<Card.Text>
+								A web application for tracking your disc golf inventory
+							</Card.Text>
+						</Card.Body>
+					</Card>
+				</Link>
+				<Link to="/projects/weatherman">
+					<Card>
+						<Card.Img
+							variant="top"
+							src="/images/weatherman/weatherman-during.png"
+						/>
+						<Card.Body>
+							<Card.Title>Weatherman</Card.Title>
+							<Card.Text>A reimagined version of the classic Hangman</Card.Text>
+						</Card.Body>
+					</Card>
+				</Link>
+			</Container>
 		</>
 	);
 }
