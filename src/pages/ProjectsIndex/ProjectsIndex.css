@@ -9,15 +9,15 @@
 
 
 .projects-container {
-	padding: 1rem 0 0 0;
-	margin: auto;
 	display: grid;
 	grid-template-columns:  1fr;
 	grid-template-rows: auto;
 	gap: 2rem;
+	margin: 2rem auto;
 }
 
 .projects-card {
 	margin: auto;
+	
 	width: 75%;
 }

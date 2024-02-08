@@ -5,7 +5,7 @@ import NavBar from '../../components/NavBar/NavBar';
 import Footer from '../../components/Footer/Footer';
 import HomePage from "../HomePage/HomePage";
 import AboutPage from "../AboutPage/AboutPage";
-import ProjectsPage from "../ProjectsPage/ProjectsPage";
+import ProjectsIndex from "../ProjectsIndex/ProjectsIndex";
 
 export default function App() {
 	return (
@@ -15,7 +15,7 @@ export default function App() {
         {/* Route components in here */}
         <Route path="/" element={< HomePage />}/>
         <Route path="/about" element={<AboutPage />}/>
-				<Route path="/projects" element={<ProjectsPage />}/>
+				<Route path="/projects" element={<ProjectsIndex />}/>
       </Routes>
       <Footer />
 		</main>
