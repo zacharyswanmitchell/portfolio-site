@@ -15,8 +15,8 @@
 .tech h2 {
     font-size: 1.7rem;
     font-weight: 700;
-    color: rgb(160, 160, 160);
-    text-decoration: underline var(--blue);
+    color: var(--black);
+    text-decoration: underline var(--dark-blue);
 }
 
 .project-details {
@@ -28,6 +28,10 @@
 
 .project-details .description {
     font-size: 1.4rem;
+}
+h1 {
+    font-size: 3.5rem;
+    
 }
 
 .tech-list {
