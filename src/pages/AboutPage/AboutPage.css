@@ -3,10 +3,11 @@
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
 	width: 98%;
-	padding: .5em 0em 0em 0em;
+	padding: 0.5em 0em 0em 0em;
 }
 
-.about-brand,h1 {
+.about-brand,
+h1 {
 	font-size: 4rem;
 }
 .about-brand img {
@@ -20,9 +21,38 @@
 	line-height: 2.7rem;
 }
 .about-copy-cont {
-    grid-column: auto / span 2;
-    padding: .5em 1em 1em 1em;
+	grid-column: auto / span 2;
+	padding: 0.5em 1em 1em 1em;
 	text-align: justify;
 	font-size: 1.5rem;
 	line-height: 2.5rem;
+}
+
+@media (max-width: 768px) {
+	.about-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.about-brand {
+		margin-bottom: 1em;
+	}
+	.about-brand,
+	h1 {
+		font-size: 1rem;
+	}
+	.about-copy {
+		padding: .5em 1em 0em 1em;
+		/* text-align: justify; */
+		font-size: 1rem;
+		line-height: 1.5rem;
+		font-weight: bold;
+	}
+	.about-copy-cont {
+		padding: 0em 1em 1em 1em;
+		/* text-align: justify; */
+		font-size: 1rem;
+		line-height: 1.5rem;
+		font-weight: bold;
+	}
 }
