@@ -48,7 +48,7 @@ export default function HomePage() {
 				<Container fluid>
 					<Row>
 						<Col>
-							<Link to="https://rehomr-58ea4d4dc5ca.herokuapp.com/">
+							<Link to="/projects/rehomr">
 								<Card>
 									<Card.Img variant="top" src="images/rehomr/home.png" />
 									<Card.Body>
@@ -62,7 +62,7 @@ export default function HomePage() {
 							</Link>
 						</Col>
 						<Col>
-							<Link to="https://disc-golf-inventory-manager-230ba0ac5328.herokuapp.com/">
+							<Link to="/projects/disctracker">
 								<Card>
 									<Card.Img
 										variant="top"
@@ -78,7 +78,7 @@ export default function HomePage() {
 							</Link>
 						</Col>
 						<Col>
-							<Link to="https://zacharyswanmitchell.github.io/weatherman/">
+							<Link to="/projects/weatherman">
 								<Card>
 									<Card.Img
 										variant="top"

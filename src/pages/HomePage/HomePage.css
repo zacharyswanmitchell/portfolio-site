@@ -64,3 +64,76 @@
     gap: 35px;
     width: 90%;
 }
+
+@media (max-width: 768px) {
+    .brand-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 2em;
+        /* margin-bottom: 175px; */
+        width: 90%;
+    }
+    .brand-info h1{
+        font-size: 2em;
+        font-weight: bold;
+        color: #000;
+        margin-top: 0;
+        margin-bottom: 0.5em;
+    }
+    .brand-info h2{
+        font-size: 1.9em;
+        font-weight: bold;
+        color: #000;
+        margin-bottom: 0.5em;
+    }
+    .brand-container img{
+        margin-top: 25px;
+        margin-bottom: 1em;
+        border-radius: 5px;
+    }
+    .aboutme-home-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutme-home{
+        display: flex;
+        justify-content: center;
+        padding-top: .5em;
+    
+    }
+    .aboutme-home-blurb {
+        font-size: 1.5em;
+        color: #000;
+        text-align: center;
+    }
+    .button-container {
+        display: flex;
+        justify-content: center;
+    }
+    .aboutme-button {
+        outline: var(--dark-blue);
+        
+    }
+    .aboutme-button:hover {
+        color: var(--white);
+        outline: var(--dark-blue);
+        background-color: var(--dark-blue);
+    }
+    .projects-home h1 {
+        text-align: center;
+        padding-top: 1em;
+    }
+    .projects-home .container-fluid {
+        margin: 25px auto;
+        display: grid;
+        /* grid-template-columns: 1fr; */
+        /* grid-auto-rows: 1fr; */
+        gap: 35px;
+
+        width: 90%;
+
+    }
+}

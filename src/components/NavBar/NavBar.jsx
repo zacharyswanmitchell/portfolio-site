@@ -38,7 +38,7 @@ export default function NavBar() {
 								src="../images/headshot.png"
 								className="brand-image"
 							/>{" "}
-							Zachary Swan Mitchell
+							Zachary Mitchell
 						</Navbar.Brand>
 					</Link>
 					<Navbar.Toggle
