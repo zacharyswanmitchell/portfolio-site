@@ -1,0 +1,66 @@
+.aboutme-button {
+    outline: var(--dark-blue);
+    
+}
+.aboutme-button:hover {
+    color: var(--white);
+    outline: var(--dark-blue);
+    background-color: var(--dark-blue);
+}
+.contact-hero {
+    margin: 75px auto 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-hero h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 25px 0;
+}
+
+.contact-form-wrap {
+    width: 75%;
+}
+
+.contact-socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.contact-socials .socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.contact-socials .social-icon {
+    color: black;
+    height: 40px;
+    width: 40px;
+}
+
+@media (max-width: 575.8px){
+    .contact-hero h1 {
+        font-size: 3rem;
+    }
+
+    .contact-form-wrap {
+        width: 90%;
+    }
+
+    .contact-socials {
+        gap: 15px;
+    }
+
+    .contact-socials .social-icon {
+        color: black;
+        height: 24px;
+        width: 24px;
+    }
+}
