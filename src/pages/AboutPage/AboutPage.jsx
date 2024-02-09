@@ -1,8 +1,12 @@
 import "./AboutPage.css";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
+import { useEffect } from "react";
 
 export default function AboutPage() {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<>
 			<Container fluid className="about-container">

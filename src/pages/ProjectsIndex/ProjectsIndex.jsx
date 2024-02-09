@@ -2,8 +2,12 @@ import "./ProjectsIndex.css";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
+import { useEffect } from "react";
 
 export default function ProjectsIndex() {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<>
 			<div className="projects-title">
@@ -23,7 +27,7 @@ export default function ProjectsIndex() {
 					</Card>
 				</Link>
 				<Link to="/projects/disctracker">
-				<Card className="projects-card">
+					<Card className="projects-card">
 						<Card.Img
 							variant="top"
 							src="/images/disctracker/SCR-20231103-owfg.png"
@@ -37,7 +41,7 @@ export default function ProjectsIndex() {
 					</Card>
 				</Link>
 				<Link to="/projects/weatherman">
-				<Card className="projects-card">
+					<Card className="projects-card">
 						<Card.Img
 							variant="top"
 							src="/images/weatherman/weatherman-during.png"

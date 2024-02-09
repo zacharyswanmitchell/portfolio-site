@@ -6,8 +6,12 @@ import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function HomePage() {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<>
 			<Container fluid className="brand-container">
@@ -23,9 +27,9 @@ export default function HomePage() {
 				<div>
 					<h1 className="aboutme-home">about me.</h1>
 					<p className="aboutme-home-blurb">
-						Transitioned from a dynamic role as an Agile
-						Development Coordinator to achieve proficiency in JavaScript,
-						Node.js, React, and more through General Assembly.
+						Transitioned from a dynamic role as an Agile Development Coordinator
+						to achieve proficiency in JavaScript, Node.js, React, and more
+						through General Assembly.
 					</p>
 					<div className="button-container">
 						<Button

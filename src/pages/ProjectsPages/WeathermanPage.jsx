@@ -1,8 +1,12 @@
 import "./Projects.css";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
+import { useEffect } from "react";
 
 export default function WeathermanPage() {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<>
 			<Container fluid className="project-container">
@@ -31,17 +35,26 @@ export default function WeathermanPage() {
 								</ul>
 							</div>
 							<div className="tech-used-2">
-								<ul>
-								</ul>
+								<ul></ul>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div className="project-buttons">
-					<Button size="lg" href="https://zacharyswanmitchell.github.io/weatherman/" variant="outline-primary" className="aboutme-button">
+					<Button
+						size="lg"
+						href="https://zacharyswanmitchell.github.io/weatherman/"
+						variant="outline-primary"
+						className="aboutme-button"
+					>
 						Deployed Site
 					</Button>{" "}
-					<Button size="lg" href="https://github.com/zacharyswanmitchell/weatherman/blob/main/README.md" variant="outline-primary" className="aboutme-button">
+					<Button
+						size="lg"
+						href="https://github.com/zacharyswanmitchell/weatherman/blob/main/README.md"
+						variant="outline-primary"
+						className="aboutme-button"
+					>
 						Github
 					</Button>{" "}
 				</div>

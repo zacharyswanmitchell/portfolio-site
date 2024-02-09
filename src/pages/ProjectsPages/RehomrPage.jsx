@@ -1,8 +1,12 @@
 import "./Projects.css";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
+import { useEffect } from "react";
 
 export default function RehomrPage() {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<>
 			<Container fluid className="project-container">
@@ -52,10 +56,20 @@ export default function RehomrPage() {
 					</div>
 				</div>
 				<div className="project-buttons">
-					<Button size="lg" href="https://rehomr-58ea4d4dc5ca.herokuapp.com/" variant="outline-primary" className="aboutme-button">
+					<Button
+						size="lg"
+						href="https://rehomr-58ea4d4dc5ca.herokuapp.com/"
+						variant="outline-primary"
+						className="aboutme-button"
+					>
 						Deployed Site
 					</Button>{" "}
-					<Button size="lg" href="https://github.com/zacharyswanmitchell/rehomr/" variant="outline-primary" className="aboutme-button">
+					<Button
+						size="lg"
+						href="https://github.com/zacharyswanmitchell/rehomr/"
+						variant="outline-primary"
+						className="aboutme-button"
+					>
 						Github
 					</Button>{" "}
 				</div>
