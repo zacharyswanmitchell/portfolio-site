@@ -10,7 +10,7 @@ export default function ContactPage() {
 	}, []);
 	return (
 		<>
-			<Container className="contact-hero">
+			<Container className="contact-container">
 				<h1>Contact</h1>
 				<div className="contact-form-wrap">
 					<ContactForm />
@@ -20,14 +20,14 @@ export default function ContactPage() {
 				<h2></h2>
 				<div className="socials">
 					<a
-						href="https://www.linkedin.com/in/ianpetercreative/"
+						href="https://www.linkedin.com/in/zacharysmitchell/"
 						target="_blank"
 						rel="noreferrer"
 					>
 						<FaLinkedin className="social-icon" />
 					</a>
 					<a
-						href="https://github.com/ianpetercreative"
+						href="https://github.com/zacharyswanmitchell"
 						target="_blank"
 						rel="noreferrer"
 					>

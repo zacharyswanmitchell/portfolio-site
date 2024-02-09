@@ -7,14 +7,14 @@
     outline: var(--dark-blue);
     background-color: var(--dark-blue);
 }
-.contact-hero {
-    margin: 75px auto 75px;
+.contact-container {
+    margin: 75px auto auto auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.contact-hero h1 {
+.contact-container h1 {
     font-size: 4rem;
     font-weight: 700;
     text-align: center;
@@ -30,7 +30,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    padding: 0em 0em 2em 0em;
 }
 
 .contact-socials .socials {
@@ -40,13 +40,13 @@
 }
 
 .contact-socials .social-icon {
-    color: black;
+    color: var(--dark-blue);
     height: 40px;
     width: 40px;
 }
 
 @media (max-width: 575.8px){
-    .contact-hero h1 {
+    .contact-container h1 {
         font-size: 3rem;
     }
 
@@ -59,7 +59,7 @@
     }
 
     .contact-socials .social-icon {
-        color: black;
+        color: var(--dark-blue);
         height: 24px;
         width: 24px;
     }
