@@ -28,3 +28,16 @@ footer .social-icon:hover {
     color: var(--light-blue);
 }
 
+@media (max-width: 576px){
+    footer .container-fluid {
+        flex-direction: column-reverse;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-link {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+}
