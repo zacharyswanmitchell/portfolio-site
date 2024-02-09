@@ -41,21 +41,22 @@
 }
 
 .navbar-nav {
-	justify-content: flex-end;
-	align-items: center;
 	gap: 1em;
+	display: flex;
+	align-items: space-between;
 }
 
 .navbar-toggler {
+	width: auto;
 	box-shadow: none;
-	padding: 0;
+	/* padding: auto; */
 	border: 0;
 	position: absolute;
 	right: 0;
-
 }
-
-
+.button {
+	outline: none;
+}
 
 @media (min-width: 576px) {
     .nav-link {
@@ -65,7 +66,7 @@
 
 @media (max-width: 575.8px) {
     .navbar {
-        padding: 0em 0em 0em 0em;
+        padding: .5em .5em;
     }
 
     .nav-link {

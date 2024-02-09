@@ -55,11 +55,11 @@ export default function NavBar() {
 					>
 						<Offcanvas.Header closeButton>
 							<Offcanvas.Title id={`offcanvasNavbarLabel-expand-sm`}>
-								ZSM
+								Menu
 							</Offcanvas.Title>
 						</Offcanvas.Header>
 						<Offcanvas.Body>
-							<Nav className="flex-grow-1">
+							<Nav>
 								<Nav.Item>
 									<Link
 										to="/"
