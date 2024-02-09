@@ -23,8 +23,8 @@ export default function ContactForm() {
 		evt.preventDefault();
 		console.log("Form Submitted: ", formFields);
 		setResult("Sending...");
-		const formData = new FormData(evt.target);
-		formData.append("access_key", process.env.REACT_APP_WEB3FORMS_ACCESS_KEY);
+        const formData = new FormData(evt.target);
+        formData.append("access_key", process.env.REACT_APP_WEB3FORMS_ACCESS_KEY);
 
 		const res = await fetch("https://api.web3forms.com/submit", {
 			method: "POST",

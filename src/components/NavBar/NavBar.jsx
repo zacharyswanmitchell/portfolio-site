@@ -12,6 +12,7 @@ export default function NavBar() {
 	const isHomePage = location.pathname === "/";
 	const isAboutPage = location.pathname === "/about";
 	const isProjectPage = location.pathname === "/projects";
+	const isContactPage = location.pathname === "/contact";
 
 	const [offCanvasNav, setOffCanvasNav] = useState(false);
 	const offcanvasRef = useRef();
@@ -69,7 +70,6 @@ export default function NavBar() {
 										Home
 									</Link>
 								</Nav.Item>
-								&nbsp; &nbsp;
 								<Nav.Item>
 									<Link
 										to="/about"
@@ -79,7 +79,6 @@ export default function NavBar() {
 										About
 									</Link>
 								</Nav.Item>
-								&nbsp; &nbsp;
 								<Nav.Item>
 									<Link
 										to="/projects"
@@ -87,6 +86,15 @@ export default function NavBar() {
 										onClick={handleToggle}
 									>
 										Projects
+									</Link>
+								</Nav.Item>
+								<Nav.Item>
+									<Link
+										to="/contact"
+										className={`nav-link ${isContactPage ? "active" : ""}`}
+										onClick={handleToggle}
+									>
+										Contact
 									</Link>
 								</Nav.Item>
 							</Nav>
