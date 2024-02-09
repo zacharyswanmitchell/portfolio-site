@@ -49,9 +49,8 @@
 .navbar-toggler {
 	width: auto;
 	box-shadow: none;
-	/* padding: auto; */
+	padding: auto;
 	border: 0;
-	position: absolute;
 	right: 0;
 }
 .button {
@@ -66,7 +65,7 @@
 
 @media (max-width: 575.8px) {
     .navbar {
-        padding: .5em .5em;
+		margin: auto;
     }
 
     .nav-link {

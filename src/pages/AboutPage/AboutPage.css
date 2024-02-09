@@ -46,13 +46,14 @@ h1 {
 		/* text-align: justify; */
 		font-size: 1rem;
 		line-height: 1.5rem;
-		font-weight: bold;
+		color: #000000;
 	}
 	.about-copy-cont {
 		padding: 0em 1em 1em 1em;
 		/* text-align: justify; */
 		font-size: 1rem;
 		line-height: 1.5rem;
-		font-weight: bold;
+		color: #000000;
+
 	}
 }

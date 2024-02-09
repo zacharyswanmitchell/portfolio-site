@@ -16,7 +16,7 @@ export default function AboutPage() {
 				</div>
 				<div className="about-copy">
 					<p>
-						Hey, I'm Zachary Mitchell, a passionate and recently graduated
+						Hey! I'm Zachary Mitchell, a passionate and recently graduated
 						full-stack developer on a journey to transform my career. My path to
 						web development started with a career shift - I was an Agile
 						Development Coordinator until May, facing the challenges of a job
