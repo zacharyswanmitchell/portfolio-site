@@ -23,8 +23,7 @@ export default function HomePage() {
 				<div>
 					<h1 className="aboutme-home">about me.</h1>
 					<p className="aboutme-home-blurb">
-						Results-driven Full Stack Developer with a commitment to
-						sustainability. Transitioned from a dynamic role as Agile
+						Transitioned from a dynamic role as an Agile
 						Development Coordinator to achieve proficiency in JavaScript,
 						Node.js, React, and more through General Assembly.
 					</p>
@@ -40,7 +39,7 @@ export default function HomePage() {
 				</div>
 			</Container>
 			<div className="projects-home">
-				<h1>projects</h1>
+				<h1>projects.</h1>
 				<Container fluid>
 					<Row>
 						<Col>
