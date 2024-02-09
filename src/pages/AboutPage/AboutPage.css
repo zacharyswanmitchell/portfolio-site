@@ -2,22 +2,26 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
+	width: 98%;
+	padding: .5em 0em 0em 0em;
 }
 
 .about-brand,h1 {
-    
 	font-size: 4rem;
+}
+.about-brand img {
+	border-radius: 5px;
 }
 
 .about-copy {
 	padding: 3em 0em 0px 1em;
 	text-align: justify;
 	font-size: 1.5rem;
-	line-height: 2.5rem;
+	line-height: 2.7rem;
 }
 .about-copy-cont {
     grid-column: auto / span 2;
-    padding: 0px 1em 0px 1em;
+    padding: .5em 1em 1em 1em;
 	text-align: justify;
 	font-size: 1.5rem;
 	line-height: 2.5rem;

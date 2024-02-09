@@ -12,25 +12,26 @@ export default function AboutPage() {
 				</div>
 				<div className="about-copy">
 					<p>
-						Hello, I'm Zachary Mitchell, a passionate and recently graduated
+						Hey, I'm Zachary Mitchell, a passionate and recently graduated
 						full-stack developer on a journey to transform my career. My path to
-						web development started with a career shift – I was a Technical
-						Support Manager until May, facing the challenges of a job search.
-						Following the recommendation of a close friend who had successfully
-						completed the Software Engineering course at General Assembly, I
-						decided to take the leap into the world of coding. Now, I'm eagerly
-						seeking new opportunities in the field.
+						web development started with a career shift - I was an Agile
+						Development Coordinator until May, facing the challenges of a job
+						search. Following the recommendation of a close friend who had
+						successfully completed the Software Engineering course at General
+						Assembly, I decided to take the leap into the world of coding. Now,
+						I'm eagerly seeking new opportunities in the field.
 					</p>
 				</div>
 				<div className="about-copy-cont">
-				<p>
+					<p>
 						My educational background includes studies in Pastoral Ministries at
-						Southeastern University, where I spent time volunteering in various
-						ministries. While I cherish the experiences gained, I realized my
-						true passion lies in technology and creating meaningful solutions. ​
-						In the realm of development, I find joy in crafting dynamic and
-						responsive applications using JavaScript, Node.js, Express, React,
-						Python, and Django.
+						Southeastern Universityin Lakeland, Florida, where I spent time
+						volunteering in various ministries. While I cherish the experiences
+						gained and friendships made, I realized my true passion lies in
+						technology and creating meaningful solutions. In the realm of
+						development, I find joy in crafting dynamic and responsive
+						applications using JavaScript, Node.js, Express, React, Python, and
+						Django.
 					</p>
 					<p>
 						While I'm just embarking on my job search, I've already accumulated
@@ -42,8 +43,7 @@ export default function AboutPage() {
 						contribute to a workplace that values people and makes a positive
 						impact on the world. Among my notable projects, I take pride in my
 						work on projects like reHomr and Disc tracker, each offering a
-						glimpse into my evolving skill set. You can find links to these
-						projects and more in my portfolio.
+						glimpse into my evolving skill set.
 					</p>
 					<p>
 						I'm excited about the potential to contribute my skills and continue
