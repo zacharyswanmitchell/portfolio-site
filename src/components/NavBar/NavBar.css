@@ -13,10 +13,6 @@
 	font-weight: bold;
 }
 
-.navbar-nav {
-	margin-left: 2rem;
-}
-
 .navbar {
 	background-color: var(--dark-green);
 }
@@ -42,8 +38,6 @@
 
 .navbar-nav {
 	gap: 1em;
-	display: flex;
-	align-items: space-between;
 }
 
 .navbar-toggler {

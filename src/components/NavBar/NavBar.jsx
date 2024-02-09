@@ -60,7 +60,7 @@ export default function NavBar() {
 							</Offcanvas.Title>
 						</Offcanvas.Header>
 						<Offcanvas.Body>
-							<Nav>
+							<Nav className="">
 								<Nav.Item>
 									<Link
 										to="/"
