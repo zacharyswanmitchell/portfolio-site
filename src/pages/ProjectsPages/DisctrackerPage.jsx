@@ -47,10 +47,10 @@ export default function DisctrackerPage() {
 					</div>
 				</div>
 				<div className="project-buttons">
-					<Button href="https://disc-golf-inventory-manager-230ba0ac5328.herokuapp.com/" variant="outline-primary" className="aboutme-button">
+					<Button size="lg" href="https://disc-golf-inventory-manager-230ba0ac5328.herokuapp.com/" variant="outline-primary" className="aboutme-button">
 						Deployed Site
 					</Button>{" "}
-					<Button href="https://github.com/zacharyswanmitchell/disc-golf-inventory-tracker/blob/main/README.md" variant="outline-primary" className="aboutme-button">
+					<Button size="lg" href="https://github.com/zacharyswanmitchell/disc-golf-inventory-tracker/blob/main/README.md" variant="outline-primary" className="aboutme-button">
 						Github
 					</Button>{" "}
 				</div>

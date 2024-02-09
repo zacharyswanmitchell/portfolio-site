@@ -38,10 +38,10 @@ export default function WeathermanPage() {
 					</div>
 				</div>
 				<div className="project-buttons">
-					<Button href="https://zacharyswanmitchell.github.io/weatherman/" variant="outline-primary" className="aboutme-button">
+					<Button size="lg" href="https://zacharyswanmitchell.github.io/weatherman/" variant="outline-primary" className="aboutme-button">
 						Deployed Site
 					</Button>{" "}
-					<Button href="https://github.com/zacharyswanmitchell/weatherman/blob/main/README.md" variant="outline-primary" className="aboutme-button">
+					<Button size="lg" href="https://github.com/zacharyswanmitchell/weatherman/blob/main/README.md" variant="outline-primary" className="aboutme-button">
 						Github
 					</Button>{" "}
 				</div>

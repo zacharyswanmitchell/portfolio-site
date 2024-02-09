@@ -1,7 +1,12 @@
+.project-container {
+    width: 90%;
+}
+
 .project-title {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2em 0em 0em 0em;
 }
 
 .project-title h1 {
@@ -30,7 +35,7 @@
     font-size: 1.4rem;
 }
 h1 {
-    font-size: 3.5rem;
+    font-size: 3.25rem;
     
 }
 

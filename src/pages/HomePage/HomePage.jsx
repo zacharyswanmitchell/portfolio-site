@@ -32,6 +32,7 @@ export default function HomePage() {
 							href="/about"
 							variant="outline-primary"
 							className="aboutme-button"
+							size="lg"
 						>
 							Read More
 						</Button>{" "}
