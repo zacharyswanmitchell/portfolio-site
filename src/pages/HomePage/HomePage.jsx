@@ -35,14 +35,15 @@ export default function HomePage() {
 						through General Assembly.
 					</p>
 					<div className="button-container">
+						<Link to="/about">
 						<Button
-							href="/about"
 							variant="outline-primary"
 							className="aboutme-button"
 							size="lg"
-						>
+							>
 							Read More
 						</Button>{" "}
+							</Link>
 					</div>
 				</div>
 			</Container>
