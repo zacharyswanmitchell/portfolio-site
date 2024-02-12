@@ -36,7 +36,7 @@ export default function NavBar() {
 						<Navbar.Brand href="#home">
 							<img
 								alt=""
-								src={process.env.PUBLIC_URL + "/images/headshot.png"
+								src={process.env.PUBLIC_URL + "/images/headshot.png"}
 								className="brand-image"
 							/>{" "}
 							Zachary Mitchell
