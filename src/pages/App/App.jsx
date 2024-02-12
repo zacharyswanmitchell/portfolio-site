@@ -1,4 +1,5 @@
-import "bootstrap/dist/css/bootstrap.min.css"; // import { useState } from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
+import ReactGA from "react-ga4";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import NavBar from "../../components/NavBar/NavBar";
@@ -10,8 +11,10 @@ import RehomrPage from "../ProjectsPages/RehomrPage";
 import DisctrackerPage from "../ProjectsPages/DisctrackerPage";
 import WeathermanPage from "../ProjectsPages/WeathermanPage";
 import ContactPage from "../ContactPage/ContactPage";
+ReactGA.initialize("G-164RB0XSDV");
 
 export default function App() {
+
 	return (
 		<main className="App">
 			<NavBar />
