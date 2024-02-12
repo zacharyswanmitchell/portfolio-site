@@ -71,12 +71,48 @@ export default function DisctrackerPage() {
 				<div className="project-screenshots">
 					<h1>Screenshots</h1>
 					<div className="web-screenshots">
-						<img src="/images/disctracker/SCR-20231103-ovco.png" alt="" />
-						<img src="/images/disctracker/SCR-20231103-ovqn.png" alt="" />
-						<img src="/images/disctracker/SCR-20231103-owfg.png" alt="" />
-						<img src="/images/disctracker/SCR-20231103-owhp.png" alt="" />
-						<img src="/images/disctracker/SCR-20231103-ovtl.png" alt="" />
-						<img src="/images/disctracker/SCR-20231103-owcq.png" alt="" />
+						<img
+							src={
+								process.env.PUBLIC_URL +
+								"/images/disctracker/SCR-20231103-ovco.png"
+							}
+							alt=""
+						/>
+						<img
+							src={
+								process.env.PUBLIC_URL +
+								"/images/disctracker/SCR-20231103-ovqn.png"
+							}
+							alt=""
+						/>
+						<img
+							src={
+								process.env.PUBLIC_URL +
+								"/images/disctracker/SCR-20231103-owfg.png"
+							}
+							alt=""
+						/>
+						<img
+							src={
+								process.env.PUBLIC_URL +
+								"/images/disctracker/SCR-20231103-owhp.png"
+							}
+							alt=""
+						/>
+						<img
+							src={
+								process.env.PUBLIC_URL +
+								"/images/disctracker/SCR-20231103-ovtl.png"
+							}
+							alt=""
+						/>
+						<img
+							src={
+								process.env.PUBLIC_URL +
+								"/images/disctracker/SCR-20231103-owcq.png"
+							}
+							alt=""
+						/>
 					</div>
 				</div>
 			</Container>

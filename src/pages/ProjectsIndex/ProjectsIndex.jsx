@@ -16,7 +16,8 @@ export default function ProjectsIndex() {
 			<Container fluid className="projects-container">
 				<Link to="/projects/rehomr">
 					<Card className="projects-card">
-						<Card.Img variant="top" src="images/rehomr/home.png" />
+					<Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/rehomr/home.png"} />
+
 						<Card.Body>
 							<Card.Title>Rehomr</Card.Title>
 							<Card.Text>
@@ -28,10 +29,8 @@ export default function ProjectsIndex() {
 				</Link>
 				<Link to="/projects/disctracker">
 					<Card className="projects-card">
-						<Card.Img
-							variant="top"
-							src="/images/disctracker/SCR-20231103-owfg.png"
-						/>
+					<Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/disctracker/SCR-20231103-owfg.png"} />
+
 						<Card.Body>
 							<Card.Title>Disc Tracker</Card.Title>
 							<Card.Text>
@@ -42,10 +41,7 @@ export default function ProjectsIndex() {
 				</Link>
 				<Link to="/projects/weatherman">
 					<Card className="projects-card">
-						<Card.Img
-							variant="top"
-							src="/images/weatherman/weatherman-during.png"
-						/>
+					<Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/weatherman/weatherman-during.png"} />
 						<Card.Body>
 							<Card.Title>Weatherman</Card.Title>
 							<Card.Text>A reimagined version of the classic Hangman</Card.Text>

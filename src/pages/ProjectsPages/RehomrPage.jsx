@@ -76,11 +76,26 @@ export default function RehomrPage() {
 				<div className="project-screenshots">
 					<h1>Screenshots</h1>
 					<div className="web-screenshots">
-						<img src="/images/rehomr/home.png" alt="" />
-						<img src="/images/rehomr/login.png" alt="" />
-						<img src="/images/rehomr/map.png" alt="" />
-						<img src="/images/rehomr/pet-detail.png" alt="" />
-						<img src="/images/rehomr/pets-available.png" alt="" />
+						<img
+							src={process.env.PUBLIC_URL + "/images/rehomr/home.png"}
+							alt=""
+						/>
+						<img
+							src={process.env.PUBLIC_URL + "/images/rehomr/login.png"}
+							alt=""
+						/>
+						<img
+							src={process.env.PUBLIC_URL + "/images/rehomr/map.png"}
+							alt=""
+						/>
+						<img
+							src={process.env.PUBLIC_URL + "/images/rehomr/pet-detail.png"}
+							alt=""
+						/>
+						<img
+							src={process.env.PUBLIC_URL + "/images/rehomr/pets-available.png"}
+							alt=""
+						/>
 					</div>
 				</div>
 			</Container>

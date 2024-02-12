@@ -61,9 +61,27 @@ export default function WeathermanPage() {
 				<div className="project-screenshots">
 					<h1>Screenshots</h1>
 					<div className="web-screenshots">
-						<img src="/images/weatherman/Screenshot2023-10-12.png" alt="" />
-						<img src="/images/weatherman/Screenshot2023-10-12b.png" alt="" />
-						<img src="/images/weatherman/weatherman-during.png" alt="" />
+						<img
+							src={
+								process.env.PUBLIC_URL +
+								"/images/weatherman/Screenshot2023-10-12.png"
+							}
+							alt=""
+						/>
+						<img
+							src={
+								process.env.PUBLIC_URL +
+								"/images/weatherman/Screenshot2023-10-12b.png"
+							}
+							alt=""
+						/>
+						<img
+							src={
+								process.env.PUBLIC_URL +
+								"/images/weatherman/weatherman-during.png"
+							}
+							alt=""
+						/>
 					</div>
 				</div>
 			</Container>

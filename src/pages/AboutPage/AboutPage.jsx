@@ -12,7 +12,10 @@ export default function AboutPage() {
 			<Container fluid className="about-container">
 				<div className="about-brand">
 					<h1>about me.</h1>
-					<Image src="/images/Z-E-costarica.JPG" fluid />
+					<Image
+						src={process.env.PUBLIC_URL + "/images/Z-E-costarica.JPG"}
+						fluid
+					/>
 				</div>
 				<div className="about-copy">
 					<p>

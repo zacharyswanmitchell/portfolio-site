@@ -21,7 +21,10 @@ export default function HomePage() {
 					<h3>hey, hello, how are ya?</h3>
 				</div>
 
-				<Image src="/images/homepage-crop.jpeg" fluid />
+				<Image
+					src={process.env.PUBLIC_URL + "/images/homepage-crop.jpeg"}
+					fluid
+				/>
 			</Container>
 			<Container fluid className="aboutme-home-container">
 				<div>
@@ -50,7 +53,11 @@ export default function HomePage() {
 						<Col>
 							<Link to="/projects/rehomr">
 								<Card>
-									<Card.Img variant="top" src="images/rehomr/home.png" />
+									<Card.Img
+										variant="top"
+										src={process.env.PUBLIC_URL + "/images/rehomr/home.png"}
+									/>
+
 									<Card.Body>
 										<Card.Title>reHomr</Card.Title>
 										<Card.Text>
@@ -66,8 +73,12 @@ export default function HomePage() {
 								<Card>
 									<Card.Img
 										variant="top"
-										src="/images/disctracker/SCR-20231103-owfg.png"
+										src={
+											process.env.PUBLIC_URL +
+											"/images/disctracker/SCR-20231103-owfg.png"
+										}
 									/>
+
 									<Card.Body>
 										<Card.Title>Disc Golf App</Card.Title>
 										<Card.Text>
@@ -82,7 +93,10 @@ export default function HomePage() {
 								<Card>
 									<Card.Img
 										variant="top"
-										src="/images/weatherman/weatherman-during.png"
+										src={
+											process.env.PUBLIC_URL +
+											"/images/weatherman/weatherman-during.png"
+										}
 									/>
 									<Card.Body>
 										<Card.Title>WeatherMan</Card.Title>
@@ -97,7 +111,8 @@ export default function HomePage() {
 					<Row>
 						{/* <Col>
 							<Card>
-								<Card.Img variant="top" src="/images/arenal-crop.jpeg" />
+								<Card.Img variant="top" src={
+											process.env.PUBLIC_URL + "/images/arenal-crop.jpeg"} />
 								<Card.Body>
 									<Card.Title>Card Title</Card.Title>
 									<Card.Text>
