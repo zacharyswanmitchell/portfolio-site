@@ -32,7 +32,7 @@ export default function AboutPage() {
 				<div className="about-copy-cont">
 					<p>
 						My educational background includes studies in Pastoral Ministries at
-						Southeastern Universityin Lakeland, Florida, where I spent time
+						Southeastern University in Lakeland, Florida, where I spent time
 						volunteering in various ministries. While I cherish the experiences
 						gained and friendships made, I realized my true passion lies in
 						technology and creating meaningful solutions. In the realm of
