@@ -16,6 +16,10 @@
 .navbar {
 	background-color: var(--dark-green);
 }
+.offcanvas-body {
+	display: flex;
+	justify-content: flex-end;
+}
 
 .nav-link {
 	color: var(--white);
@@ -67,6 +71,10 @@
         margin: 20px;
 		color: var(--dark-blue);
     }
+	.offcanvas-body {
+		display: flex;
+		justify-content: center;
+	}
 
 	.navbar-brand {
 		font-size: 1rem;

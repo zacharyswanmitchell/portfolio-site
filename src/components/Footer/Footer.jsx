@@ -21,7 +21,7 @@ export default function Footer() {
                 <div className="links">
                     <Link to="/" className="footer-links">Home</Link>&nbsp; | &nbsp;
                     <Link to="/about" className="footer-links">About</Link>&nbsp; | &nbsp;
-                    <Link to="/projects" className="footer-links">Projects</Link>
+                    <Link to="/projects" className="footer-links">Projects</Link>&nbsp; | &nbsp;
                     <Link to="/contact" className="footer-links">Contact</Link>
                 </div>
 			</Container>
