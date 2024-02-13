@@ -19,6 +19,17 @@ export default function HomePage() {
 					<h1>zachary swan mitchell</h1>
 					<h2>full stack developer</h2>
 					<h3>hey, hello, how are ya?</h3>
+					<div className="button-container-contact">
+						<Link to="/contact">
+							<Button
+								variant="outline-primary"
+								className="aboutme-button"
+								size="sm"
+							>
+								Reach Out
+							</Button>{" "}
+						</Link>
+					</div>
 				</div>
 
 				<Image
