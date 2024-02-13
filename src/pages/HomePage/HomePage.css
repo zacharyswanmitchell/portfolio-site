@@ -128,12 +128,7 @@
     }
     .projects-home .container-fluid {
         margin: 25px auto;
-        display: grid;
-        /* grid-template-columns: 1fr; */
-        /* grid-auto-rows: 1fr; */
         gap: 35px;
-
         width: 90%;
-
     }
 }

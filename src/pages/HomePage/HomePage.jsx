@@ -36,14 +36,14 @@ export default function HomePage() {
 					</p>
 					<div className="button-container">
 						<Link to="/about">
-						<Button
-							variant="outline-primary"
-							className="aboutme-button"
-							size="lg"
+							<Button
+								variant="outline-primary"
+								className="aboutme-button"
+								size="lg"
 							>
-							Read More
-						</Button>{" "}
-							</Link>
+								Read More
+							</Button>{" "}
+						</Link>
 					</div>
 				</div>
 			</Container>
@@ -69,6 +69,8 @@ export default function HomePage() {
 								</Card>
 							</Link>
 						</Col>
+						</Row>
+					<Row>
 						<Col>
 							<Link to="/projects/disctracker">
 								<Card>
@@ -79,7 +81,6 @@ export default function HomePage() {
 											"/images/disctracker/SCR-20231103-owfg.png"
 										}
 									/>
-
 									<Card.Body>
 										<Card.Title>Disc Golf App</Card.Title>
 										<Card.Text>
@@ -89,6 +90,8 @@ export default function HomePage() {
 								</Card>
 							</Link>
 						</Col>
+						</Row>
+					<Row>
 						<Col>
 							<Link to="/projects/weatherman">
 								<Card>
